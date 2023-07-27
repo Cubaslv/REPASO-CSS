@@ -1,0 +1,78 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#container{
+    width: 90% ;
+    margin: 1px auto;
+    border: 1px solid black ;
+    background-color: chartreuse;
+
+}
+header{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100%;
+    /* margenes */
+    margin: 0 px;
+    /* alinear centro */
+    text-align: center;
+
+    line-height: 100 px;
+    /* color letras */
+    color: white;
+    /* bordes */
+    border-bottom: 3px dashed black ;
+}
+/* selecciona la lista } */
+nav ul li {
+    text-align: center;
+    /* colocarlos en fila  */
+    float:left;
+    list-style: none;
+    /* dar espacio a la lista  */
+    margin: 10px;
+}
+.clearfix {
+    clear: both;
+}
+.article{
+    /* color letra */
+    color: antiquewhite;
+    margin-top: 15px;
+    /* bordes separatorios */
+    border-bottom: 1px solid aquamarine;
+}
+
+#content{
+    float:left;
+    text-align: center;
+    width: 80%;
+    /* altura del cajon */
+    min-height: 500px;
+    background-color:green;
+}
+aside{
+    float: left;
+    text-align: center;
+    width: 20%;
+    background-color:orange;
+    /* altura del cajon */
+    min-height: 500px;
+}
+
+footer{
+    /* color fondo */
+    background-color: black;
+    /* margenes */
+    margin: 0%;
+    /* centrar texto */
+    text-align: center;
+    /* color fuente letra */
+    color: blanchedalmond;
+     /* tamaño de fondo */
+    line-height: 50px;
+
+}
